@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2A8C16C23FBE0A000A1AD4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8C16B23FBE0A000A1AD4D /* AppDelegate.swift */; };
+		F2A8C16E23FBE0A000A1AD4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8C16D23FBE0A000A1AD4D /* SceneDelegate.swift */; };
+		F2A8C17023FBE0A000A1AD4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8C16F23FBE0A000A1AD4D /* ViewController.swift */; };
+		F2A8C17323FBE0A000A1AD4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A8C17123FBE0A000A1AD4D /* Main.storyboard */; };
+		F2A8C17623FBE0A000A1AD4D /* Wu_rfel_Simulator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2A8C17423FBE0A000A1AD4D /* Wu_rfel_Simulator.xcdatamodeld */; };
+		F2A8C17823FBE0A400A1AD4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A8C17723FBE0A400A1AD4D /* Assets.xcassets */; };
+		F2A8C17B23FBE0A400A1AD4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A8C17923FBE0A400A1AD4D /* LaunchScreen.storyboard */; };
+		F2A8C18523FBEBFF00A1AD4D /* hiclipart.com.png in Resources */ = {isa = PBXBuildFile; fileRef = F2A8C18423FBEBFF00A1AD4D /* hiclipart.com.png */; };
+		F2ECAF4A2621CEAA00983553 /* Wappen_ohneHintergrund.png in Resources */ = {isa = PBXBuildFile; fileRef = F2ECAF492621CEAA00983553 /* Wappen_ohneHintergrund.png */; };
+		F2ECAF4D2621D3B800983553 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ECAF4C2621D3B800983553 /* TestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2A8C16823FBE0A000A1AD4D /* D&D Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "D&D Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A8C16B23FBE0A000A1AD4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2A8C16D23FBE0A000A1AD4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2A8C16F23FBE0A000A1AD4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2A8C17223FBE0A000A1AD4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2A8C17523FBE0A000A1AD4D /* Wu_rfel_Simulator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wu_rfel_Simulator.xcdatamodel; sourceTree = "<group>"; };
+		F2A8C17723FBE0A400A1AD4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2A8C17A23FBE0A400A1AD4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2A8C17C23FBE0A400A1AD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A8C18423FBEBFF00A1AD4D /* hiclipart.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiclipart.com.png; sourceTree = SOURCE_ROOT; };
+		F2ECAF492621CEAA00983553 /* Wappen_ohneHintergrund.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wappen_ohneHintergrund.png; sourceTree = "<group>"; };
+		F2ECAF4C2621D3B800983553 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2A8C16523FBE0A000A1AD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2A8C15F23FBE0A000A1AD4D = {
+			isa = PBXGroup;
+			children = (
+				F2A8C16A23FBE0A000A1AD4D /* Würfel Simulator */,
+				F2A8C16923FBE0A000A1AD4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2A8C16923FBE0A000A1AD4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2A8C16823FBE0A000A1AD4D /* D&D Dice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2A8C16A23FBE0A000A1AD4D /* Würfel Simulator */ = {
+			isa = PBXGroup;
+			children = (
+				F2A8C16B23FBE0A000A1AD4D /* AppDelegate.swift */,
+				F2A8C16D23FBE0A000A1AD4D /* SceneDelegate.swift */,
+				F2A8C16F23FBE0A000A1AD4D /* ViewController.swift */,
+				F2ECAF4C2621D3B800983553 /* TestViewController.swift */,
+				F2A8C17123FBE0A000A1AD4D /* Main.storyboard */,
+				F2A8C17723FBE0A400A1AD4D /* Assets.xcassets */,
+				F2A8C17923FBE0A400A1AD4D /* LaunchScreen.storyboard */,
+				F2A8C17C23FBE0A400A1AD4D /* Info.plist */,
+				F2A8C17423FBE0A000A1AD4D /* Wu_rfel_Simulator.xcdatamodeld */,
+				F2A8C18423FBEBFF00A1AD4D /* hiclipart.com.png */,
+				F2ECAF492621CEAA00983553 /* Wappen_ohneHintergrund.png */,
+			);
+			path = "Würfel Simulator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2A8C16723FBE0A000A1AD4D /* D&D Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A8C17F23FBE0A400A1AD4D /* Build configuration list for PBXNativeTarget "D&D Dice" */;
+			buildPhases = (
+				F2A8C16423FBE0A000A1AD4D /* Sources */,
+				F2A8C16523FBE0A000A1AD4D /* Frameworks */,
+				F2A8C16623FBE0A000A1AD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "D&D Dice";
+			productName = "Würfel Simulator";
+			productReference = F2A8C16823FBE0A000A1AD4D /* D&D Dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2A8C16023FBE0A000A1AD4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tobias Ritscher";
+				TargetAttributes = {
+					F2A8C16723FBE0A000A1AD4D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F2A8C16323FBE0A000A1AD4D /* Build configuration list for PBXProject "D&D Dice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2A8C15F23FBE0A000A1AD4D;
+			productRefGroup = F2A8C16923FBE0A000A1AD4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2A8C16723FBE0A000A1AD4D /* D&D Dice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2A8C16623FBE0A000A1AD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A8C17B23FBE0A400A1AD4D /* LaunchScreen.storyboard in Resources */,
+				F2A8C18523FBEBFF00A1AD4D /* hiclipart.com.png in Resources */,
+				F2A8C17823FBE0A400A1AD4D /* Assets.xcassets in Resources */,
+				F2A8C17323FBE0A000A1AD4D /* Main.storyboard in Resources */,
+				F2ECAF4A2621CEAA00983553 /* Wappen_ohneHintergrund.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2A8C16423FBE0A000A1AD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2ECAF4D2621D3B800983553 /* TestViewController.swift in Sources */,
+				F2A8C17023FBE0A000A1AD4D /* ViewController.swift in Sources */,
+				F2A8C17623FBE0A000A1AD4D /* Wu_rfel_Simulator.xcdatamodeld in Sources */,
+				F2A8C16C23FBE0A000A1AD4D /* AppDelegate.swift in Sources */,
+				F2A8C16E23FBE0A000A1AD4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2A8C17123FBE0A000A1AD4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A8C17223FBE0A000A1AD4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2A8C17923FBE0A400A1AD4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A8C17A23FBE0A400A1AD4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2A8C17D23FBE0A400A1AD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2A8C17E23FBE0A400A1AD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2A8C18023FBE0A400A1AD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33HMQ72W7;
+				INFOPLIST_FILE = "Würfel Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Thobbit.Wu-rfel-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2A8C18123FBE0A400A1AD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33HMQ72W7;
+				INFOPLIST_FILE = "Würfel Simulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Thobbit.Wu-rfel-Simulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2A8C16323FBE0A000A1AD4D /* Build configuration list for PBXProject "D&D Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A8C17D23FBE0A400A1AD4D /* Debug */,
+				F2A8C17E23FBE0A400A1AD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A8C17F23FBE0A400A1AD4D /* Build configuration list for PBXNativeTarget "D&D Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A8C18023FBE0A400A1AD4D /* Debug */,
+				F2A8C18123FBE0A400A1AD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2A8C17423FBE0A000A1AD4D /* Wu_rfel_Simulator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2A8C17523FBE0A000A1AD4D /* Wu_rfel_Simulator.xcdatamodel */,
+			);
+			currentVersion = F2A8C17523FBE0A000A1AD4D /* Wu_rfel_Simulator.xcdatamodel */;
+			path = Wu_rfel_Simulator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2A8C16023FBE0A000A1AD4D /* Project object */;
+}
